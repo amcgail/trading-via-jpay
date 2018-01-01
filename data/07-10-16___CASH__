@@ -1,0 +1,4 @@
+uri:/instrument/1.0/__CASH__/chartdata;type=quote;range=1d/csv
+ticker:__cash__
+errorid:1
+message:Unknown error has happened - symbol: __cash__ representation: quote range: 1d

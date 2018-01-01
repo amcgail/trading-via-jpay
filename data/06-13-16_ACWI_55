@@ -1,0 +1,4 @@
+uri:/instrument/1.0/ACWI
+ticker:acwi<55
+errorid:2
+message:No symbol found - symbol: acwi<55 representation: quote range: 1d

@@ -1,0 +1,4 @@
+uri:/instrument/1.0/SPY
+ticker:spy<212
+errorid:2
+message:No symbol found - symbol: spy<212 representation: quote range: 1d

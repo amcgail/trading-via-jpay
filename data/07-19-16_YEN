@@ -1,0 +1,4 @@
+uri:/instrument/1.0/YEN/chartdata;type=quote;range=1d/csv
+ticker:yen
+errorid:1
+message:Unknown error has happened - symbol: yen representation: quote range: 1d

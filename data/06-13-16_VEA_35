@@ -1,0 +1,4 @@
+uri:/instrument/1.0/VEA
+ticker:vea<35
+errorid:2
+message:No symbol found - symbol: vea<35 representation: quote range: 1d

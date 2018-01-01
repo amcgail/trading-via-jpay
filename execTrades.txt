@@ -1,0 +1,71 @@
+In[10]: execute_trades.sellAtPrice("MCD", 30, 117.2)
+> MCD balance: 0
+>> CASH balance: 23372.2675
+In[11]: execute_trades.sellAtPrice("VIA", 154, 44.21)
+>> VIA balance: 0
+>> CASH balance: 30180.6075
+In[12]: execute_trades.sellAtPrice("GDX", 65, 28.68)
+>> GDX balance: 0
+>> CASH balance: 32044.8075
+In[13]: execute_trades.sellAtPrice("PRGO", 30, 92.07)
+>> PRGO balance: 0
+>> CASH balance: 34806.9075
+In[19]: execute_trades.buyAtPrice("AAPL", 5, 107.7)
+>> CASH balance: 34268.4075
+>> AAPL balance: 80
+In[22]: execute_trades.sellAtPrice("ULTA", 15, 249.64)
+>> ULTA balance: 0
+>> CASH balance: 38013.0075
+In[23]: execute_trades.buyAtPrice("RE", 10, 192.77)
+>> CASH balance: 36085.3075
+>> RE balance: 51
+In[24]: execute_trades.buyAtPrice("GOGL", 6, 808.02)
+>> CASH balance: 31237.1875
+>> GOGL balance: 6
+In[25]: execute_trades.buyAtPrice("SPGI", 5, 125.79)
+>> CASH balance: 30608.2375
+>> SPGI balance: 10
+In[26]: execute_trades.buyAtPrice("PFE", 30, 34.77)
+>> CASH balance: 29565.1375
+>> PFE balance: 30
+In[27]: execute_trades.buyAtPrice("VRX", 50, 29.47)
+>> CASH balance: 28091.6375
+>> VRX balance: 50
+
+In[28]: execute_trades.sellAtPrice("ACWI", None, 58.26)
+>> ACWI balance: 0
+>> CASH balance: 30072.4775
+In[30]: execute_trades.buyAtPrice("VIA", 280, 41.35)
+>> CASH balance: 18494.4775
+>> VIA balance: 280
+In[31]: execute_trades.buyAtPrice("Y", 15, 516.75)
+>> CASH balance: 10743.2275
+>> Y balance: 15
+
+In[37]: execute_trades.summary()
+-USNS-CORE-1
+thing		amt		value
+IBM		30		4646.1
+AAPL		80		9086.4
+DIS		38		3519.94
+MDLZ		74		3172.38
+.>Retrieving data for VRX
+VRX		50		1355.0
+RE		51		9711.93
+SCHB		39		2011.15
+__CASH__		10743.2275		--
+PGP		135		2716.2
+HSY		50		4772.5
+SNE		257		8195.73
+.>Retrieving data for Y
+Y		15		7843.2
+VIA		280		11544.4
+.>Retrieving data for PFE
+PFE		30		1009.2
+AVY		26		2013.7
+KO		82		3452.2
+GOOGL		6		4772.34
+NDAQ		74		5165.2
+SPGI		10		1246.8
+.>Retrieving data for GOGL
+GOGL		6		25.26

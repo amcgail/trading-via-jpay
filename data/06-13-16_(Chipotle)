@@ -1,0 +1,4 @@
+uri:/instrument/1.0/(Chipotle)/chartdata;type=quote;range=1d/csv
+ticker:(chipotle)
+errorid:2
+message:No symbol found - symbol: (chipotle) representation: quote range: 1d
